@@ -1,0 +1,9 @@
+uniix:
+  namespace: default
+  image: nginx:1.23.0
+  replicas: 1
+  host: uniix-final-lab.arpo.website
+  ingress:
+    ingressClassName: nginx
+  service:
+    type: ClusterIP
