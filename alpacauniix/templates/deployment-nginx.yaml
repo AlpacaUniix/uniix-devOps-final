@@ -18,7 +18,7 @@ spec:
         app.kubernetes.io/name: {{ .Release.Name }}
     spec:
       containers:
-      - name: uniix
+      - name: alpacauniix
         image: {{ .Values.uniix.image }}
         ports:
         - containerPort: 80
