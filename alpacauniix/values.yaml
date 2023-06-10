@@ -1,6 +1,6 @@
 uniix:
   namespace: default
-  image: nginx:1.23.0
+  image: alpacauniix/summer-devops-m1:latest
   replicas: 1
   host: uniix-final-lab.arpo.website
   ingress:
