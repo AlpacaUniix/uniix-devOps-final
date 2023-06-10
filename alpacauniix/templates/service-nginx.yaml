@@ -8,7 +8,7 @@ metadata:
 spec:
   type: {{ .Values.uniix.service.type }}
   selector:
-    app: uniix
+    app: alpacauniix
   ports:
     - protocol: TCP
       port: 80

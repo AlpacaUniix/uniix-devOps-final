@@ -8,13 +8,13 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: uniix
+      app: alpacauniix
       app.kubernetes.io/name: {{ .Release.Name }}
   replicas: {{ .Values.uniix.replicas }}
   template:
     metadata:
       labels:
-        app: uniix
+        app: alpacauniix
         app.kubernetes.io/name: {{ .Release.Name }}
     spec:
       containers:
