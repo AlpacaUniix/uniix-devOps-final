@@ -21,4 +21,4 @@ spec:
       - name: uniix
         image: {{ .Values.uniix.image }}
         ports:
-        - containerPort: 3000
+        - containerPort: 80
