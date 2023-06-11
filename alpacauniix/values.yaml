@@ -1,6 +1,6 @@
 uniix:
   namespace: default
-  image: summer-devops-m1:lastest
+  image: alpcauniix/summer-devops-m1:lastest
   replicas: 1
   host: uniix-devops-final.arpo.website
   ingress:
