@@ -2,7 +2,7 @@ uniix:
   namespace: default
   image: alpcauniix/summer-devops-m1:lastest
   replicas: 1
-  host: uniix-devops-final.arpo.website
+  host: uniix-final-lab.arpo.website
   ingress:
     ingressClassName: nginx
   service:
